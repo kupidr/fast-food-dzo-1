@@ -3,8 +3,41 @@
 @import url("https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&display=swap");
 /* font-family: 'IBM Plex Sans Thai Looped', sans-serif; */
 /* font-family: 'Merienda', cursive; */
-html {
-  scroll-behavior: smooth;
+
+/* reset all   */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "IBM Plex Sans Thai Looped", sans-serif;
+}
+/* color  */
+:root {
+  --red-1: #db5456;
+  --hover: #ff4144;
+  --white: #ffffff;
+  --black: #000000;
+  --black-1: #90989e;
+  --breakfast: #eee;
+}
+img {
+  width: 100%;
+}
+a {
+  text-decoration: none;
+}
+
+p {
+  color: var(--black-1);
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Merienda", cursive;
+  color: var(--black);
 }
 /* grid */
 .container {
@@ -72,32 +105,6 @@ html {
 .container .row .col-12 {
   width: 100%;
 }
-/* reset all   */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "IBM Plex Sans Thai Looped", sans-serif;
-}
-img {
-  width: 100%;
-}
-a {
-  text-decoration: none;
-}
-
-p {
-  color: var(--black-1);
-}
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: "Merienda", cursive;
-  color: var(--black);
-}
 .btn {
   display: inline-block;
   font-size: 1rem;
@@ -116,15 +123,7 @@ h6 {
 .heading {
   font-size: 3rem;
 }
-/* color  */
-:root {
-  --red-1: #db5456;
-  --hover: #ff4144;
-  --white: #ffffff;
-  --black: #000000;
-  --black-1: #90989e;
-  --breakfast: #eee;
-}
+
 /* start header aera  */
 header {
   padding: 5rem 2rem;
